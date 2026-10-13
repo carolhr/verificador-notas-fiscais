@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe">
+  <NFe>
+    <infNFe Id="NFe35241011222333000181550010000012341100001232">
+      <ide>
+        <nNF>1234</nNF>
+        <dhEmi>2024-10-08T10:00:00-03:00</dhEmi>
+      </ide>
+      <emit>
+        <CNPJ>11222333000181</CNPJ>
+        <xNome>Empresa Exemplo Ltda</xNome>
+      </emit>
+      <det nItem="1">
+        <prod>
+          <xProd>Caderno</xProd>
+          <qCom>10.0000</qCom>
+          <vUnCom>15.00</vUnCom>
+          <vProd>150.00</vProd>
+        </prod>
+      </det>
+      <det nItem="2">
+        <prod>
+          <xProd>Caneta</xProd>
+          <qCom>20.0000</qCom>
+          <vUnCom>2.50</vUnCom>
+          <vProd>50.00</vProd>
+        </prod>
+      </det>
+            <total>
+        <ICMSTot>
+          <vProd>200.00</vProd>
+          <vFrete>20.00</vFrete>
+          <vDesc>10.00</vDesc>
+          <vNF>210.00</vNF>
+        </ICMSTot>
+      </total>
+    </infNFe>
+  </NFe>
+</nfeProc>

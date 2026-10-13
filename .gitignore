@@ -1,0 +1,9 @@
+# Notas fiscais (dados reais, nunca publicar)
+notas/
+
+# Arquivos gerados pelo Python
+__pycache__/
+*.pyc
+
+# Configurações do editor
+.vscode/
